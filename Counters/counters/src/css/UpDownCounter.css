@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upDownCounter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin: 15px 0;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.counter
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.inputContainer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.counterCurrent {
+    text-align: center;
+}
+
+button, input {
+    border-radius: 10px;
+}
+
+.button-counterUp {
+    background-color: green;
+}
+
+.button-counterDown {
+    background-color: red;
+}

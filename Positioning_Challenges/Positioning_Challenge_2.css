@@ -1,0 +1,12 @@
+.container {
+    height: 500px;
+    border: 2px dashed cornflowerblue;
+}
+
+.rectangle {
+    height: 494px;
+    width: 50%;
+    background: cornflowerblue;
+    border: 2px solid purple;
+    margin: 1px 25%;
+}

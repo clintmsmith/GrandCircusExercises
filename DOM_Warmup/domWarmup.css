@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+}
+
+.divHere {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clicked {
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid black;
+}
+
+.disappear {
+    width: 300px;
+    height: 75px;
+    font-size: 30px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.bye {
+    background-color: lightblue;
+    color: black;
+    font-size: 50px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digitalClock {
+    border: 1px solid black;
+    width: 450px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.digitalClock {
+    height: 90px;
+    width: 450px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

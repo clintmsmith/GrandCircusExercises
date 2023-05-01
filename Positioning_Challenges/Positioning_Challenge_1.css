@@ -1,0 +1,15 @@
+.container {
+    height: 500px;
+    width: 100%;
+    border: 2px dashed cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: cornflowerblue;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newPetForm {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px 0 15px 0;
+}
+
+.newPetForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newPetForm form h3 { 
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.newPetForm form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin: 5px 10px 5px 0;
+    font-size: 20px;
+}
+
+.newPetForm form input {
+    font-size: 20px;
+    padding-top: 3px;
+    padding-right: 10px;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.newPetForm form input[type="checkbox"]{
+    height: 20px;
+}
+
+.newPetForm form button {
+    font-size: 25px;
+    margin-top: 10px;
+    background: #03a9f4;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.newPetForm form button:hover {
+    background: #f3f1f7;
+    color: #000;
+}

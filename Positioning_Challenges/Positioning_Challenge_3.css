@@ -1,0 +1,39 @@
+.container {
+    height: 500px;
+    border: 2px dashed cornflowerblue;
+    padding: 0;
+    display: grid;    
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red {
+    background: red;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.orange {
+    background: orange;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.yellow {
+    background: yellow;
+    grid-column-start: 1;  
+    grid-row-start: 2;
+}
+
+.green {
+    background: green;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
